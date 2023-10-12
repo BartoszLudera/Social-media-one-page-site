@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 90%;
+            margin: 0 auto;
+        }
+
+        .text-container {
+            width: 40%;
+        }
+
+        .image-container {
+            width: 55%;
+        }
+
+        .boxes-container {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+
+        }
+
+        .box {
+    width: 250px;
+    height: 268px;
+    border: rgb(178, 178, 178) solid 2px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.box img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 6px;
+}
+
+.box p {
+    margin: 10px 0;
+    font-family: Arial, Verdana, sans-serif;
+    font-size: 18px;
+    color: black;
+}
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: transparent;
+            float: right;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: black;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-family: 'Trebuchet MS', sans-serif;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #111;
+            color: white;
+            border-radius: 8%;
+        }
+
+        input {
+            padding: 6px;
+            margin-top: 8px;
+            margin-left: 10px;
+            border: 2px solid rgb(178, 178, 178);
+            border-radius: 12px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#about">About</a></li>
+            <input type="text" placeholder="Search..">
+        </ul>
+    </div>
+    <div class="container">
+        <div class="text-container">
+            <p style="font-family: Arial, Verdana, sans-serif; font-size: 70px; font-weight: bold; margin: none;">Get the best social
+                media platform</p>
+            <p style="font-family: Arial, Verdana, sans-serif; color: gray; font-size: 30px; margin: none;">Easy illustration can give
+                you the possibility to make
+                your website better and look very well. Take a look at our offer below.</p>
+            <div>
+                <p
+                    style="font-family: Arial, Verdana, sans-serif; background-color: rgb(193, 152, 231); color: rgb(106, 21, 186); border-radius: 20px; height: 20px; width: 120px; font-weight: bold; font-size: 20px; text-align: center; padding: 5px;">
+                    Start now</p>
+            </div>
+        </div>
+        <div class="image-container">
+            <img src="gif1.gif" style="width: 720px; height: 540px; border-radius: 8px;" alt="PICTURE">
+        </div>
+    </div>
+    <div style="margin-left: 5%; margin-right: 5%;" class="boxes-container">
+        <div class="box">
+            <img style="height: 187.5px; width: 250px;" src="gif2.gif" alt="PICTURE">
+            <p style="font-family: Arial, Verdana, sans-serif; color: rgb(0, 0, 0); font-size: 20px; margin: none; font-weight: bold;">Spend time with friend</p>
+            <p style="font-family: Arial, Verdana, sans-serif; color: gray; font-size: 15px; margin: none;">Up to 1m message</p>
+        </div>
+        <div class="box">
+            <img style="height: 187.5px; width: 250px;" src="gif3.gif" alt="PICTURE">
+            <p style="font-family: Arial, Verdana, sans-serif; color: rgb(0, 0, 0); font-size: 20px; margin: none; font-weight: bold;">Watch videos together</p>
+            <p style="font-family: Arial, Verdana, sans-serif; color: gray; font-size: 15px; margin: none;">Up to 100 people</p>
+        </div>
+        <div class="box">
+            <img style="height: 187.5px; width: 250px;" src="gif4.gif" alt="PICTURE">
+            <p style="font-family: Arial, Verdana, sans-serif; color: rgb(0, 0, 0); font-size: 20px; margin: none; font-weight: bold;">Countles hour of content</p>
+            <p style="font-family: Arial, Verdana, sans-serif; color: gray; font-size: 15px; margin: none;">Morde than 1 biolin hour</p>
+        </div>
+        <div class="box">
+            <img style="height: 187.5px; width: 250px;" src="gif5.gif" alt="PICTURE">
+            <p style="font-family: Arial, Verdana, sans-serif; color: rgb(0, 0, 0); font-size: 20px; margin: none; font-weight: bold;">Best of all</p>
+            <p style="font-family: Arial, Verdana, sans-serif; color: gray; font-size: 15px; margin: none;">99'9% user love us</p>
+        </div>
+    </div>
+</body>
+
+</html>
